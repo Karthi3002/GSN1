@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import './styles/global.css';
+import About from './components/AboutUs';
+import Features from './components/Features';
+import ComingSoon from './components/ComingSoon';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true,     // whether animation should happen only once - while scrolling down
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <About />
+      <Features />
+      <ComingSoon />
     </div>
   );
 }
