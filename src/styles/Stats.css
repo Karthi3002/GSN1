@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Stats Section
+--------------------------------------------------------------*/
+.stats .stats-item {
+  padding: 30px;
+  width: 100%;
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #FAF398, #B88A44);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(232, 187, 80, 0.3);
+  color: #000;
+}
+
+.stats .stats-item .stat-number {
+  color: black;
+  font-size: 48px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.stats .stats-item .stat-number::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.stats .stats-item .stat-number * {
+  text-decoration: none !important;
+  border: none !important;
+  display: inline;
+}
+
+.stats .stats-item p {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading-font);
+  font-weight: 500;
+}
