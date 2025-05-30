@@ -13,9 +13,9 @@ const ComingSoon = () => {
               We’re building a powerful platform that blends business networking with purpose-driven connection. From
               smart matchmaking to seamless communication, exciting features are on the way. Stay tuned!
             </p>
-            <a href="#" className="btn btn-cta">
+            <button href="#" className="btn btn-cta">
               Coming Soon...
-            </a>
+            </button>
           </div>
 
           {/* Abstract Background Elements */}

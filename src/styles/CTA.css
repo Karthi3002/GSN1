@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Call To Action 2 Section
+--------------------------------------------------------------*/
+.call-to-action-2 {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #FAF398, #B88A44);
+}
+
+.call-to-action-2 .container {
+  position: relative;
+  z-index: 3;
+}
+
+.call-to-action-2 h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+.call-to-action-2 p {
+  color: black;
+}
+
+.call-to-action-2 .cta-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  margin: 10px;
+  background-color: color-mix(in srgb, var(--contrast-color) 15%, transparent);
+  color: var(--contrast-color);
+  border: 2px solid var(--contrast-color);
+  position: relative;
+  z-index: 2;
+}
+
+.call-to-action-2 .cta-btn:hover {
+  background-color: var(--contrast-color);
+  color: var(--accent-color);
+}

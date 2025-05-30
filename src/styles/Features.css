@@ -1,20 +1,3 @@
-.features.section,
-.features-cards.section,
-.features-2.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.features .tab-content .tab-pane {
-  margin-bottom: 60px; /* Adjust this value as needed */
-}
-
-/* Optional: Add spacing between entire sections if missing */
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
