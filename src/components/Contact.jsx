@@ -1,7 +1,35 @@
-import React from "react";
-import "../styles/Contact.css"; // Optional: Add styles as needed
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "../styles/Contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xpevuug",     // Your EmailJS service ID
+        "template_e8jbm6k",     // Your EmailJS template ID
+        form.current,
+        "DcEKS2Aq7jKmvyhE5"     // Your public key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          document.querySelector(".sent-message").style.display = "block";
+          document.querySelector(".error-message").style.display = "none";
+          form.current.reset();
+        },
+        (error) => {
+          console.error(error.text);
+          document.querySelector(".error-message").style.display = "block";
+          document.querySelector(".sent-message").style.display = "none";
+        }
+      );
+  };
+
   return (
     <section id="contact" className="contact section light-background">
       <div className="container section-title" data-aos="fade-up">
@@ -60,7 +88,13 @@ const Contact = () => {
                 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
               </p>
 
-              <form className="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <div className="row gy-4">
                   <div className="col-md-6">
                     <input type="text" name="name" className="form-control" placeholder="Your Name" required />
@@ -85,9 +119,13 @@ const Contact = () => {
                   </div>
 
                   <div className="col-12 text-center">
-                    <div className="loading">Loading</div>
-                    <div className="error-message"></div>
-                    <div className="sent-message">Your message has been sent. Thank you!</div>
+                    <div className="loading" style={{ display: "none" }}>Loading</div>
+                    <div className="error-message" style={{ display: "none", color: "red" }}>
+                      Failed to send message. Please try again.
+                    </div>
+                    <div className="sent-message" style={{ display: "none", color: "green" }}>
+                      Your message has been sent. Thank you!
+                    </div>
 
                     <button type="submit" className="btn">
                       Send Message
@@ -95,6 +133,7 @@ const Contact = () => {
                   </div>
                 </div>
               </form>
+
             </div>
           </div>
         </div>

@@ -29,6 +29,7 @@
   display: inline-block;
   padding: 12px 40px;
   border-radius: 50px;
+  text-decoration: none;
   transition: all 0.3s ease;
   margin: 10px;
   background-color: color-mix(in srgb, var(--contrast-color) 15%, transparent);

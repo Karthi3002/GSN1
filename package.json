@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://karthi3002.github.io/GSN1",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -14,6 +15,7 @@
     "bootstrap-icons": "^1.13.1",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "emailjs": "^4.0.3",
     "express": "^5.1.0",
     "gh-pages": "^6.3.0",
     "nodemailer": "^7.0.3",
