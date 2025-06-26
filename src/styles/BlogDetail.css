@@ -1,0 +1,118 @@
+/* Blog Detail Section */
+.blog-detail-section {
+  background-color: var(--background-color);
+  padding: 60px 0;
+}
+
+
+.blog-detail-card {
+  background: var(--surface-color);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.blog-detail-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-detail-content {
+  font-size: 16px;
+  color: var(--default-color);
+  line-height: 1.8;
+}
+
+.blog-detail-text {
+  margin-top: 10px;
+  white-space: pre-line;
+}
+
+/* Section Title Styling (inherited from global.css) */
+/* No override needed if .section-title class is used in the section */
+
+/* Navigation Buttons */
+.blog-nav-btn {
+  background: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-nav-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Filled Style for All Blogs Button */
+.blog-nav-btn.filled {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+}
+
+.blog-nav-btn.filled:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+@media (max-width: 991px) {
+  .blog-detail-card {
+    padding: 20px;
+  }
+
+  .blog-detail-image {
+    max-height: 300px;
+  }
+
+  .blog-detail-content {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .blog-nav-btn {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-detail-section {
+    padding: 40px 0;
+  }
+
+  .blog-detail-card {
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .blog-detail-image {
+    max-height: 240px;
+    border-radius: 8px;
+  }
+
+  .blog-detail-content {
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+
+  .blog-nav-btn {
+    width: 100%;
+    font-size: 13.5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .blog-nav-btn.filled {
+    margin-top: 10px;
+  }
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/AboutUs.css"; // Assuming you have a CSS file for styling
 import { BsCheckCircleFill, BsTelephoneFill } from "react-icons/bs";
-import aboutMainImg from "../assets/img/about-5.webp";
-import aboutSmallImg from "../assets/img/about-2.webp";
-import ceoImg from "../assets/img/avatar-1.webp";
+import aboutMainImg from "../assets/img/GSN - About 2.png";
+import aboutSmallImg from "../assets/img/GSN - About 1.png";
+import ceoImg from "../assets/img/picture1.png";
 
 const About = () => {
   return (
@@ -57,7 +57,7 @@ const About = () => {
                     <BsTelephoneFill />
                     <div>
                       <p className="contact-label">Call us anytime</p>
-                      <p className="contact-number">+123 456-789</p>
+                      <p className="contact-number">+91 95000 78674</p>
                     </div>
                   </div>
                 </div>

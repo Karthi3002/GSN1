@@ -27,22 +27,21 @@
   transition: all 0.4s ease;
 }
 
-.footer .footer-about .logo img {
-  max-height: 40px;
-  margin-right: 6px;
-}
-
 .footer .footer-about .logo span {
-  color: var(--heading-color);
-  font-family: 'Roboto', sans-serif;
   font-size: 26px;
   font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: var(--heading-color);
   letter-spacing: 1px;
 }
 
 .footer .footer-about p {
   font-size: 14px;
   font-family: var(--heading-font);
+}
+
+.footer .footer-contact p {
+  margin-bottom: 5px;
 }
 
 .footer .social-links a {
@@ -70,6 +69,7 @@
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  font-family: var(--heading-font);
 }
 
 .footer .footer-links {
@@ -80,12 +80,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.footer .footer-links ul i {
-  padding-right: 2px;
-  font-size: 12px;
-  line-height: 0;
 }
 
 .footer .footer-links ul li {
@@ -99,18 +93,16 @@
 }
 
 .footer .footer-links ul a {
-  text-decoration: none;  
+  text-decoration: none;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   display: inline-block;
   line-height: 1;
+  font-family: var(--heading-font);
+  transition: 0.3s;
 }
 
 .footer .footer-links ul a:hover {
   color: var(--accent-color);
-}
-
-.footer .footer-contact p {
-  margin-bottom: 5px;
 }
 
 .footer .copyright {
@@ -142,18 +134,12 @@
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+  border: none;
 }
 
 .scroll-top svg {
   background-color: black;
   color: #ffffff;
-}
-
-
-.scroll-top i {
-  font-size: 24px;
-  color: var(--contrast-color);
-  line-height: 0;
 }
 
 .scroll-top:hover {

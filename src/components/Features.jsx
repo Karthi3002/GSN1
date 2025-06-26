@@ -3,10 +3,10 @@ import '../styles/Features.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import img1 from '../assets/img/features-illustration-1.webp';
-import img2 from '../assets/img/features-illustration-2.webp';
-import img3 from '../assets/img/features-illustration-3.webp';
-import img4 from '../assets/img/phone-app-screen.webp';
+import img1 from '../assets/img/SM.png';
+import img2 from '../assets/img/SS.png';
+import img3 from '../assets/img/BGT.png';
+import img4 from '../assets/img/GSN - App (1).png';
 
 const Features = () => {
   return (

@@ -97,6 +97,7 @@
 .navmenu .active,
 .navmenu .active:focus {
   text-decoration: none; /* Ensures no underline on hover/active */
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
@@ -175,7 +176,7 @@
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: var(--nav-hover-color) !important;
   }
 
   .navmenu .dropdown ul {
@@ -212,7 +213,7 @@
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
+    color: var(--nav-dropdown-hover-color) !important;
   }
 
   .navmenu .dropdown:hover>ul {
@@ -304,7 +305,7 @@
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: var(--nav-dropdown-hover-color) !important;
   }
 
   .navmenu .active i,

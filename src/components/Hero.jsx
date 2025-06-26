@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../styles/Hero.css"; // Optional for any custom styling
 
-import illustration from "../assets/img/illustration-1.webp";
+import illustration from "../assets/img/Untitled design (5).png";
 import avatar1 from "../assets/img/avatar-1.webp";
 import avatar2 from "../assets/img/avatar-2.webp";
 import avatar3 from "../assets/img/avatar-3.webp";

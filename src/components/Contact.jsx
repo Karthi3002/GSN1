@@ -52,8 +52,10 @@ const Contact = () => {
                 </div>
                 <div className="content">
                   <h4>Our Location</h4>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <p>Marriot Courtyard Hotel</p>
+                  <p>564, Anna Salai, Teynampet</p>
+                  <p>Thiru Vi Ka Kudiyiruppu</p>
+                  <p>Chennai, Tamil Nadu 600018</p>
                 </div>
               </div>
 
@@ -63,8 +65,7 @@ const Contact = () => {
                 </div>
                 <div className="content">
                   <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <p>+91 95000 78674</p>
                 </div>
               </div>
 
@@ -74,8 +75,7 @@ const Contact = () => {
                 </div>
                 <div className="content">
                   <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <p>dcvmrao@gmail.com</p>
                 </div>
               </div>
             </div>
