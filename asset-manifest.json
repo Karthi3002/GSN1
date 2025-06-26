@@ -1,33 +1,37 @@
 {
   "files": {
-    "main.css": "/GSN1/static/css/main.7667d6c1.css",
-    "main.js": "/GSN1/static/js/main.5cb38bdd.js",
-    "static/js/453.3b5d08d4.chunk.js": "/GSN1/static/js/453.3b5d08d4.chunk.js",
+    "main.css": "/GSN1/static/css/main.9f4c056b.css",
+    "main.js": "/GSN1/static/js/main.38a0b3c7.js",
+    "static/js/453.3c1f6ff4.chunk.js": "/GSN1/static/js/453.3c1f6ff4.chunk.js",
+    "static/media/BGT.png": "/GSN1/static/media/BGT.fb2ea487da5ef83ef70f.png",
+    "static/media/picture1.png": "/GSN1/static/media/picture1.48c01ef8f34c3fdac389.png",
+    "static/media/GSN - About 1.png": "/GSN1/static/media/GSN - About 1.578513c6f2c4f7c48553.png",
+    "static/media/GSN - About 2.png": "/GSN1/static/media/GSN - About 2.afaa321fd1ee36805628.png",
+    "static/media/SS.png": "/GSN1/static/media/SS.bb71850521dd38de68ae.png",
+    "static/media/SM.png": "/GSN1/static/media/SM.859e54ebf41431cb5ca9.png",
+    "static/media/Untitled design (5).png": "/GSN1/static/media/Untitled design (5).6b028a7c0906ee3cc201.png",
+    "static/media/GSN - App (1).png": "/GSN1/static/media/GSN - App (1).2b63d35516967149ddf3.png",
     "static/media/bootstrap-icons.woff?": "/GSN1/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/GSN1/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/win.png": "/GSN1/static/media/win.30b88a28ba1c7c7dd150.png",
+    "static/media/network.png": "/GSN1/static/media/network.9818be7a6e1d2f1b9c0a.png",
     "static/media/avatar-4.webp": "/GSN1/static/media/avatar-4.4ac22b05c6f4c5df9631.webp",
-    "static/media/about-5.webp": "/GSN1/static/media/about-5.4ea2bab0b61e85c024a1.webp",
+    "static/media/sucess.png": "/GSN1/static/media/sucess.6e6bc3c7c1195c5e09c3.png",
     "static/media/avatar-1.webp": "/GSN1/static/media/avatar-1.b0d839aacb1e2dc526d7.webp",
     "static/media/testimonials-2.jpg": "/GSN1/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
     "static/media/avatar-2.webp": "/GSN1/static/media/avatar-2.f0daede6c4d3228da749.webp",
     "static/media/avatar-3.webp": "/GSN1/static/media/avatar-3.486d0cf137d296178d4b.webp",
-    "static/media/about-2.webp": "/GSN1/static/media/about-2.1d60d75fdfac1c2aa39a.webp",
-    "static/media/phone-app-screen.webp": "/GSN1/static/media/phone-app-screen.a96591a721ae059d3da1.webp",
-    "static/media/illustration-1.webp": "/GSN1/static/media/illustration-1.d1413b5204de6f9875c1.webp",
     "static/media/testimonials-1.jpg": "/GSN1/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
     "static/media/avatar-5.webp": "/GSN1/static/media/avatar-5.01cd2c038061cf8675ef.webp",
-    "static/media/features-illustration-3.webp": "/GSN1/static/media/features-illustration-3.7811a7b59f600737b8d5.webp",
-    "static/media/features-illustration-2.webp": "/GSN1/static/media/features-illustration-2.f1301ecee01c558b26cd.webp",
-    "static/media/features-illustration-1.webp": "/GSN1/static/media/features-illustration-1.a07792b732f9515006f8.webp",
     "static/media/testimonials-4.jpg": "/GSN1/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
     "static/media/testimonials-3.jpg": "/GSN1/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/GSN1/index.html",
-    "main.7667d6c1.css.map": "/GSN1/static/css/main.7667d6c1.css.map",
-    "main.5cb38bdd.js.map": "/GSN1/static/js/main.5cb38bdd.js.map",
-    "453.3b5d08d4.chunk.js.map": "/GSN1/static/js/453.3b5d08d4.chunk.js.map"
+    "main.9f4c056b.css.map": "/GSN1/static/css/main.9f4c056b.css.map",
+    "main.38a0b3c7.js.map": "/GSN1/static/js/main.38a0b3c7.js.map",
+    "453.3c1f6ff4.chunk.js.map": "/GSN1/static/js/453.3c1f6ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7667d6c1.css",
-    "static/js/main.5cb38bdd.js"
+    "static/css/main.9f4c056b.css",
+    "static/js/main.38a0b3c7.js"
   ]
 }
